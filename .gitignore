@@ -1,0 +1,48 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker-related ignores
+*.log
+docker-compose.yml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Sensitive or local configuration
+*.env
+*.local
+secrets.json
+
+# Large data or test files
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+
+# Project-specific ignores
+# Add any large datasets, logs, or test resumes here
+test_resumes/
+logs/
